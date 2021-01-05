@@ -4,7 +4,7 @@ layout: default
 <ul>
   {% for md in site.static_files | where: 'extname', '.md' %}
     <li>
-      <a href="{{ md.path | reverse | remove_first: 'dm.' | reverse }}">{{ md.basename }}</a>
+      <a href="{{ md.path | split: '' | reverse | join: '' | remove_first: 'dm.' | split: '' | reverse | join: '' }}">{{ md.basename }}</a>
     </li>
   {% endfor %}
 </ul>
