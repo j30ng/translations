@@ -2,7 +2,7 @@
 layout: default
 ---
 <ul>
-  {% for file in site.html_files %}
+  {% for file in site.static_files %}
     <li>
       <a href="{{ file.path }}">{{ file.basename }}</a>
     </li>
