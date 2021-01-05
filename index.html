@@ -2,9 +2,9 @@
 layout: default
 ---
 <ul>
-  {% for file in site.static_files %}
+  {% for md in site.static_files | where: 'extname', '.md' %}
     <li>
-      <a href="{{ file.path }}">{{ file.basename }}</a>
+      <a href="{{ md.path | reverse | remove_first: 'dm.' | reverse }}">{{ md.basename }}</a>
     </li>
   {% endfor %}
 </ul>
