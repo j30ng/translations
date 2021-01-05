@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<ul>
+  {% for file in site.html_files %}
+    <li>
+      <a href="{{ file.path }}">{{ file.basename }}</a>
+    </li>
+  {% endfor %}
+</ul>
