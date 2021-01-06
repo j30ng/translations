@@ -44,3 +44,7 @@ Martin Fowler는 그렇게 이야기하지 않았는데요. Martin Fowler는 프
 > 음, 아니에요. 그건 Martin이 완전히 틀렸습니다. [소프트웨어 크래프츠맨십 선언](http://manifesto.softwarecraftsmanship.org/)에 명확히 나와 있듯, 크래프츠맨십의 목표는 애자일이 가진 메시지를 계속하고 확장하는 거예요. 소프트웨어 크래프츠맨십은 기술자들의 몽정 같은 게 아니에요. 소프트웨어 크래프츠맨십은 단지 애자일의 기존 목표를 계속하는 겁니다.
 
 > 크래프츠맨십은 애자일 움직임이 버리고 떠난 그 애자일입니다.
+
+---
+
+[역자주1] Agile Industrial Complex를 애자일 공단이라고 번역했습니다. https://newtechusa.net/aic/
