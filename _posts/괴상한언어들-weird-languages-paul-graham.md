@@ -1,5 +1,6 @@
 ---
 title: 괴상한 언어들 (Weird Languages)
+tags: "Paul Graham"
 ---
 
 # 괴상한 언어들
