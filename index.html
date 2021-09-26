@@ -2,10 +2,9 @@
 layout: default
 ---
 <ul>
-  {% assign md_files = site.static_files | where: 'extname', '.md' %}
-  {% for md in md_files %}
+  {% for post in site.posts %}
     <li>
-      <a href="{{ md.path | split: '' | reverse | join: '' | remove_first: 'dm.' | split: '' | reverse | join: '' }}">{{ md.basename }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
