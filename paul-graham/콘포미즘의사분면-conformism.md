@@ -1,3 +1,7 @@
+---
+title: 콘포미즘의 사분면 (The Four Quadrants of Conformism)
+---
+
 # 콘포미즘의 사분면
 Paul Graham의 [The Four Quadrants of Conformism](http://www.paulgraham.com/conformism.html)를 한국어로 번역한 글입니다.
 
