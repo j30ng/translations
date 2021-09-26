@@ -1,3 +1,8 @@
+---
+title: 크래프츠맨십의 비극
+tags: "Uncle Bob"
+---
+
 Robert C. Martin의 [The Tragedy of Craftsmanship](https://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html)를 한국어로 번역한 글입니다.
 
 크래프츠맨십의 비극
@@ -35,7 +40,7 @@ Robert C. Martin의 [The Tragedy of Craftsmanship](https://blog.cleancoder.com/u
 
 > 네, 그랬죠. 그게 가장 큰 아이러니입니다. 프로그래머들이 "보세요. 팀이 중요한 거예요. 코드가 깨끗해야 해요. 고객과 협업하고 싶어요. 이르게, 또 자주 배포하고 싶어요." 라고 말하기 위해  애자일 움직임을 시작했죠.
 
-> 애자일 움직임은 크래프르맨십을 소중하게 여기는 프로그래머들과 소프트웨어 프로페셔널들이 시작했어요. 그랬더니 프로젝트 매니저들이 끼어들어서 "와! 애자일은 프로젝트 관리법의 힙한 새로운 변형이구나."라고 말했죠.
+> 애자일 움직임은 크래프르맨십을 소중하게 여기는 프로그래머들과 소프트웨어 프로페셔널들이 시작했어요. 그랬더니 프로젝트 매니저들이 끼어들어서 "와! 애자일은 프로젝트 매니징 기법의 힙한 새로운 변형이구나."라고 말했죠.
 
 > [Alan Sherman의 J. C. Cohen](https://www.youtube.com/watch?v=almHNoCGiYc)라는 오래된 노래가 있어요. 사람들을 객차 안으로 밀어넣는 일을 너무 잘하던 나머지 엔지니어를 밖으로 밀어낸 지하철 차장에 대한 내용입니다. 애자일 움직임에서도 같은 일이 일어났어요. 프로젝트 매니저를 너무 밀어 넣은 나머지 프로그래머들이 밀려났죠.
 
@@ -47,7 +52,7 @@ Martin Fowler는 그렇게 이야기하지 않았는데요. Martin Fowler는 프
 
 버리고 떠나요? 무엇을 위해서요?
 
-> 컨퍼런스와 자격증, 그리고 멋진 새 프로젝트 관리 전략들을 홍보하기 위해서요.
+> 컨퍼런스와 자격증, 그리고 멋진 새 프로젝트 매니징 전략들을 홍보하기 위해서요.
 
 자격증이 무슨 문제가 있죠?
 
@@ -65,7 +70,7 @@ Martin Fowler는 그렇게 이야기하지 않았는데요. Martin Fowler는 프
 
 > 애자일 선언이 작성되었던 2001년 Snowbird 컨퍼런스에서 Kent Beck이 우리들의 목표 중 하나는 프로그래머와 경영진 사이의 분단을 치료하는 거라고 했습니다.
 
-> 애자일 움직임은 애자일을 "새롭고 더 좋은" 관리법을 홍보하는 사업으로 변질시킴으로써 그 목표를 버렸습니다. 관리자와 프로그래머를 가까이 만들어주는 대신 애자일 움직임은 거의 전적으로 프로젝트 관리법에 집중해서 사실상 프로그래머들을 배제시켰습니다.
+> 애자일 움직임은 애자일을 "새롭고 더 좋은" 매니징 기법을 홍보하는 사업으로 변질시킴으로써 그 목표를 버렸습니다. 매니저와 프로그래머를 가까이 만들어주는 대신 애자일 움직임은 거의 전적으로 프로젝트 매니징 기법에 집중해서 사실상 프로그래머들을 배제시켰습니다.
 
 그럼 그래서 프로그래머들이 이탈한 건가요?
 
@@ -94,6 +99,50 @@ Martin Fowler는 그렇게 이야기하지 않았는데요. Martin Fowler는 프
 글쎄요, Fowler는 "약간", "아주 조금", "거의 소수"라고 했어요.
 
 > 증명이 끝났네요. 애자일 컨퍼런스에 누가 가나요? 프로그래머들이 아니죠. 제일 일을 많이 하는 사람을이 아니에요. 프로그래머들이 그 컨퍼런스들을 시작했습니다. 프로그래머들이 움직임을 시작했어요. 프로그래머들은 아무데도 가지 않았어요. 프로그래머들이 변한 게 아닙니다. 변한건 컨퍼런스들이고, 그 결과 움직임이 변한 거예요. 애자일 움직임이 프로그래머를 떠났고, 애자일로부터 떠났습니다.
+
+하지만...
+
+> 보세요, 애자일은 프로젝트 매니징 기법에 관한 것이었던 적이 없어요. 하지만 지금은 프로젝트 매니징 기법으로 둔갑했죠. 애자일과 프로젝트 매니징 기법은 아주 다른 문제예요. 애자일은 프로젝트를 더 잘 매니지하기 위한 방법이 아닙니다. 애자일은 프로젝트를 매니지하는 것과 아무 관련이 없어요. 애자일은 소프트웨어 장인들로 구성된 비교적 작은 팀이 중소 규모릐 프로덕트를 잘 만들 수 있도록 도와주는 가치와 원칙들이에요.
+
+그게 프로젝트 매니징 아닌가요?
+
+> 아뇨! 절대로요! 프로젝트 매니징은 날짜, 예산, 기한, 마일스톤에 관한 겁니다. 인력 관리와 동기부여에 관한 거고요. 좋은 매니징은 반드시 필요합니다. 하지만 애자일이랑은 관계 없어요.
+
+> 여기 [애자일 선언](http://agilemanifesto.org/)을 보세요. 4개의 문장과 그 문장들이 왼쪽, 오른쪽으로 나뉘어진 걸 보세요. 무엇이 왼쪽에 있는 것과 오른쪽에 있는 것을 나누나요? 오른쪽에 있는 것들은 프로젝트 매니징이에요. 왼쪽에 있는 것은 애자일이고요. 매니저는 프로세스와 도구를 꺼내들죠. 애자일 팀의 개인들은 상호작용을 하고요. 매니저는 포괄적인 문서를 유도합니다. 애자일 팀은 돌아가는 소프트웨어를 만들고요. 매니저는 협상을 하고 계약을 관리하죠. 애자일 팀은 고객과 협업합니다. 매니저는 계획이 지켜지도록 신경씁니다. 애자일 팀은 변화에 적응하고요.
+
+하지만 스크럼 마스터가 약간 프로젝트 매니저 같은 것 아닌가요?
+
+> Heavens no! Scrum Masters are coaches, not managers. Their role is to defend the values and disciplines. Their role is to remind the team of how they promised themselves they would work. The role was supposed to be shared by the team, not usurped by managers. Every few weeks a new team member would volunteer to act as coach – if needed. The role was supposed to be temporary. A mature team doesn’t need a permanent coach.
+
+Wow, that’s sure not what they teach now. So I guess you think Agile is just ruined then.
+
+> No! Agile is alive and well, and thriving in the Craftsmanship mindset. That’s where Agile relocated when the project managers invaded and took the Agile movement over.
+
+So then, what is the Agile movement?
+
+> Nowadays, the Agile movement might as well be an unofficial branch of the PMI. It’s a business that promotes conferences, training, and certifications for project managers. As such, it has become antithetical to Beck’s original goal. The Agile movement does not heal the divide between programmers and managers; it exacerbates it.
+
+It seems like you are saying that the Agile movement isn’t Agile.
+
+> It’s not. It gave that up long ago. Nowadays the Agile movement is about the horribly flawed idea that project management is what makes a team Agile.
+
+Well, isn’t it?
+
+> No, no, not at all. You see, an Agile team is a group of crafts-men and -women who hold the values and disciplines of Agile dear. An Agile team will be Agile no matter how the project is managed. On the other hand, a team that is not Agile will not become Agile simply by virtue of a new and fancy project management strategy. Such a team will be Faux Agile.
+
+Are you saying that a good manager can’t lead a team to be Agile?
+
+> It is a rare manager who can inculcate the values and disciplines of Craftsmanship. It’s not impossible; but it’s not common. Agile teams are most often composed of people who already share the values and disciplines of Agile – of Craftsmanship. Thinking that a team can become Agile simply because a Certified Scrum Master is the project manager is a pipe dream.
+
+So then what’s the future?
+
+> The future is what it has always been. The values and disciplines of Agile will continue to help relatively small software teams build small to medium sized products, and will help to heal the divide between programmers and management. Today, those values and disciplines are held by people who, whether they know it or not, align with the ideals of Software Craftsmanship.
+
+> I don’t think we need an organization to promote Craftsmanship. I don’t think we need a “Craftsmanship Alliance”. I think all we need are people of good will – individuals who interact and collaborate – communities of professionals who work to promote change by steadily adding value. I think the ideas of Agile – the ideas of Craftsmanship – are robust enough to grow and spread without an organization to drive them.
+
+So then Software Craftsmanship was not a tragedy?
+
+> How could the ideals of Craftsmanship ever be considered tragic? They are eternal ideals that humans have aspired to for as long as their have been humans. The tragedy was that the Agile movement became a business that left the original values and disciplines of Agile behind.
 
 ---
 
